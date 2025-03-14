@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://bw6ip5ktcb4ij"]
+
+[ext_resource type="Script" uid="uid://bd4p0snhyah85" path="res://launcher.gd" id="1_uy6ji"]
+[ext_resource type="Texture2D" uid="uid://dg1oudeqi5rsy" path="res://bg.png" id="1_vcerv"]
+[ext_resource type="Texture2D" uid="uid://dx7ctckeo7727" path="res://New Project (7).png" id="2_uy6ji"]
+[ext_resource type="FontFile" uid="uid://7iry5vhd5omv" path="res://Montserrat-Regular.ttf" id="3_bm0ek"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_uy6ji")
+
+[node name="Bg" type="Sprite2D" parent="."]
+position = Vector2(974, 546)
+scale = Vector2(1.58438, 1.59306)
+texture = ExtResource("1_vcerv")
+
+[node name="NewProject(7)" type="Sprite2D" parent="."]
+position = Vector2(1124.11, 525.5)
+scale = Vector2(0.632407, 0.632407)
+texture = ExtResource("2_uy6ji")
+offset = Vector2(-305.183, -28.4626)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 710.111
+offset_top = 622.5
+offset_right = 1219.11
+offset_bottom = 716.5
+theme_override_fonts/font = ExtResource("3_bm0ek")
+theme_override_font_sizes/font_size = 36
+text = "Connecting..."
+horizontal_alignment = 1
+vertical_alignment = 1
